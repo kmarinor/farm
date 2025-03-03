@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>Fiona's Farm</title>
     <meta name="description" content="Fiona's Farm">
     <meta name="author" content="Karoline Marin Ordonez">
@@ -11,19 +12,21 @@
 
 <body>
     <header>
-        <h1>Fiona's Farm</h1>
-        <p>Fresh from our farm to your family table</p>
+        <section id="head">
+            <h1>Fiona's Farm</h1>
+            <p>Fresh from our farm to your family table</p>
+        </section>
         <nav>
             <h2>Menu</h2>
             <ul>
                 <li><a href="#">Fruits</a></li>
                 <li><a href="#">Vegetables</a></li>
-                <li><a href="#">Top</a></li>
+                <li class="top"><a href="#">Top</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <section>
+        <section class="description">
             <h2>Fruits</h2>
             <p>Welcome to our farm, where we take pride in growing a variety of delicious and nutritious fruits. Our
                 commitment to sustainable farming practices ensures that every bite of our fruit is bursting with
@@ -34,32 +37,58 @@
         </section>
         <section>
             <h3>Fruits for Sale</h3>
-            <img src="images/apples.png" alt="apples">
-            <p>Apples</p>
-            <img src="images/oranges.png" alt="oranges">
-            <p>Oranges</p>
-            <img src="images/peaches.png" alt="peaches">
-            <p>Peaches</p>
-            <img src="images/strawberries.png" alt="Strawberries">
-            <p>Strawberries</p>
-            <img src="images/blueberries.png" alt="Blueberries">
-            <p>Blueberries</p>
-            <img src="images/raspberries.png" alt="Raspberries">
-            <p>Raspberries</p>
-            <img src="images/cherries.png" alt="Cherries">
-            <p>Cherries</p>
-            <img src="images/pears.png" alt="Pears">
-            <p>Pears</p>
-            <img src="images/plums.png" alt="Plums">
-            <p>Plums</p>
-            <img src="images/grapes.png" alt="Grapes">
-            <p>Grapes</p>
-            <img src="images/watermelons.png" alt="Watermelons">
-            <p>Watermelons</p>
-            <img src="images/cantalopes.png" alt="Cantaloupes">
-            <p>Cantaloupes</p>
+            <section class="gallery">
+                <section class="container">
+                    <img src="images/apples.png" alt="apples">
+                    <p>Apples</p>
+                </section>
+                <section class="container">
+                    <img src="images/oranges.png" alt="oranges">
+                    <p>Oranges</p>
+                </section>
+                <section class="container">
+                    <img src="images/peaches.png" alt="peaches">
+                    <p>Peaches</p>
+                </section>
+                <section class="container">
+                    <img src="images/strawberries.png" alt="Strawberries">
+                    <p>Strawberries</p>
+                </section>
+                <section class="container">
+                    <img src="images/blueberries.png" alt="Blueberries">
+                    <p>Blueberries</p>
+                </section>
+                <section class="container">
+                    <img src="images/raspberries.png" alt="Raspberries">
+                    <p>Raspberries</p>
+                </section>
+                <section class="container">
+                    <img src="images/cherries.png" alt="Cherries">
+                    <p>Cherries</p>
+                </section>
+                <section class="container">
+                    <img src="images/pears.png" alt="Pears">
+                    <p>Pears</p>
+                </section>
+                <section class="container">
+                    <img src="images/plums.png" alt="Plums">
+                    <p>Plums</p>
+                </section>
+                <section class="container">
+                    <img src="images/grapes.png" alt="Grapes">
+                    <p>Grapes</p>
+                </section>
+                <section class="container">
+                    <img src="images/watermelons.png" alt="Watermelons">
+                    <p>Watermelons</p>
+                </section>
+                <section class="container">
+                    <img src="images/cantalopes.png" alt="Cantaloupes">
+                    <p>Cantaloupes</p>
+                </section>
+            </section>
         </section>
-        <section>
+        <section class="description">
             <h2>Vegetables</h2>
             <p>At our farm, we are dedicated to growing a diverse array of vegetables that are both healthy and
                 delicious. Our vegetables are cultivated using sustainable and eco-friendly methods to ensure the
@@ -70,51 +99,81 @@
         </section>
         <section>
             <h3> Vegetables for Sale</h3>
-            <img src="images/broccoli.png" alt="Broccoli">
-            <p>Broccoli</p>
-            <img src="images/lettuce.png" alt="Lettuce">
-            <p>Lettuce</p>
-            <img src="images/eggplant.png" alt="Eggplant">
-            <p>Eggplant</p>
-            <img src="images/spinach.png" alt="Spinach">
-            <p>Spinach</p>
-            <img src="images/bean-sprout.png" alt="bean-sprout">
-            <p>Bean Sprout</p>
-            <img src="images/peas.png" alt="Peas">
-            <p>Peas</p>
-            <img src="images/bell-pepper.png" alt="bell-pepper">
-            <p>Bell Pepper</p>
-            <img src="images/carrot.png" alt="Carrot">
-            <p>Carrot</p>
-            <img src="images/potato.png" alt="Potato">
-            <p>Potato</p>
-            <img src="images/cucumber.png" alt="Cucumber">
-            <p>Cucumber</p>
-            <img src="images/tomato.png" alt="Tomato">
-            <p>Tomato</p>
-            <img src="images/radish.png" alt="Radish">
-            <p>Radish</p>
+            <section class="gallery">
+                <section class="container">
+                    <img src="images/broccoli.png" alt="Broccoli">
+                    <p>Broccoli</p>
+                </section>
+                <section class="container">
+                    <img src="images/lettuce.png" alt="Lettuce">
+                    <p>Lettuce</p>
+                </section>
+                <section class="container">
+                    <img src="images/eggplant.png" alt="Eggplant">
+                    <p>Eggplant</p>
+                </section>
+                <section class="container">
+                    <img src="images/spinach.png" alt="Spinach">
+                    <p>Spinach</p>
+                </section>
+                <section class="container">
+                    <img src="images/bean-sprout.png" alt="bean-sprout">
+                    <p>Bean Sprout</p>
+                </section>
+                <section class="container">
+                    <img src="images/peas.png" alt="Peas">
+                    <p>Peas</p>
+                </section>
+                <section class="container">
+                    <img src="images/bell-pepper.png" alt="bell-pepper">
+                    <p>Bell Pepper</p>
+                </section>
+                <section class="container">
+                    <img src="images/carrot.png" alt="Carrot">
+                    <p>Carrot</p>
+                </section>
+                <section class="container">
+                    <img src="images/potato.png" alt="Potato">
+                    <p>Potato</p>
+                </section>
+                <section class="container">
+                    <img src="images/cucumber.png" alt="Cucumber">
+                    <p>Cucumber</p>
+                </section>
+                <section class="container">
+                    <img src="images/tomato.png" alt="Tomato">
+                    <p>Tomato</p>
+                </section>
+                <section class="container">
+                    <img src="images/radish.png" alt="Radish">
+                    <p>Radish</p>
+                </section>
+            </section>
         </section>
     </main>
 
     <footer>
         <section>
             <h2>Contact</h2>
-            <p>1234 Fake Street,</p>
-            <p>Mesa, AZ 85111</p>
-            <p>(480) 555-1234</p>
+            <section class="info">
+                <p>1234 Fake Street,</p>
+                <p>Mesa, AZ 85111</p>
+                <p>(480) 555-1234</p>
+            </section>
         </section>
         <section>
             <h2>Hours</h2>
-            <p>Monday Closed</p>
-            <p>Tuesday 6:00 AM - 2:00PM</p>
-            <p>Wednesday 6:00 AM - 2:00PM</p>
-            <p>Thursday 6:00 AM - 2:00PM</p>
-            <p>Friday 6:00 AM - 9:00PM</p>
-            <p>Saturday 6:00 AM - 9:00PM</p>
-            <p>Sunday 6:00 AM - 5:00PM</p>
+            <section class="info">
+                <p>Monday Closed</p>
+                <p>Tuesday 6:00 AM - 2:00PM</p>
+                <p>Wednesday 6:00 AM - 2:00PM</p>
+                <p>Thursday 6:00 AM - 2:00PM</p>
+                <p>Friday 6:00 AM - 9:00PM</p>
+                <p>Saturday 6:00 AM - 9:00PM</p>
+                <p>Sunday 6:00 AM - 5:00PM</p>
+            </section>
         </section>
-        <p>Copyright 2024</p>
+        <p id="copy">Copyright 2024</p>
     </footer>
 </body>
 
